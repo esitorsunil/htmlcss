@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Monfotserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+/* Home Page */
+
+
+.background {
+    height: 100vh;
+    width: 100%;
+    background: url(./cover.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-text {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 4rem;
+    color: lightcoral;
+    font-family: cursive;
+}
+
+h2 {
+    padding-top: 10px;
+    font-size: 2rem;
+    color: lightcoral;
+    padding: 35px;
+    font-family: "Monfotserrat", sans-serif;
+    padding-bottom: 50px;
+}
+
+/* Summary */
+
+
+.picture img {
+    border-radius: 50%;
+
+}
+
+.top {
+    margin-top: 100px;
+}
+
+p {
+    margin: 0 35%;
+    display: block;
+    line-height: 2;
+    font-size: large;
+}
+
+h3 {
+    color: lightcoral;
+    padding: 10px;
+    text-align: left;
+}
+
+div {
+    display: block;
+}
+  
+/* About */
+
+
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 20px auto 0 auto;
+    row-gap: 2rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.project a:hover {
+    color: black;
+}
+
+/* Skill */
+
+
+.skill img {
+    display: inline;
+    border-radius: 0%;
+    padding-right: 85px;
+}
+
+.skill {
+      margin-right: -70px;
+}
+
+/* Footer */
+
+
+.bottom {
+    background-color: #333333;
+    padding: 50px 0 20px;
+}
+a {
+    color: lightcoral; 
+    text-decoration: none;  
+}
+
+.this a:hover{
+    color: white;
+}
+
+.footer-link {
+    margin: 10px 20px;
+}
+
+.copyright {
+    padding-top: 20px;
+    color: white;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 600px) {
+    
+
+    body{
+        text-align: center;
+    }
+
+    /* Home  Page */
+
+
+    .background {
+        height: 50vh;
+        width: 50%%;
+        background: url(./cover.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        padding: 25px;
+    }
+
+    /* Summary */
+
+
+   p {
+    margin : 0 20%;
+   }
+
+   /* About */
+
+   .parent {
+    display: block;
+   }
+   .study {
+    margin-bottom: 40px;
+   }
+   .parent img {
+    height: 75px;
+   }
+
+   /* Skills */
+
+   .skill img {
+    height: 75px;
+    text-align: center;
+   }
+
+
+
+}
+        
+        
+         
+    
